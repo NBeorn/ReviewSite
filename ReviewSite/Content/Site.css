@@ -24,8 +24,9 @@ textarea {
 }
 
 /*Home*/
-.jumbotron {
+.home-jumbo {
     background-image: url('17mul6jd3pfhdjpg.jpg');
+    margin-bottom: 15px;
 }
 
 .jumbo-text {
@@ -48,3 +49,17 @@ textarea {
 }
 
 /*Reviews Index*/
+.thumbnail {
+    text-align: center;
+}
+
+/*Review Details*/
+.details-jumbo {
+    text-align: center;
+    background-image: url('review-a.jpg');
+    background-size: contain;
+}
+
+#background-color {
+    background-color: whitesmoke;
+}

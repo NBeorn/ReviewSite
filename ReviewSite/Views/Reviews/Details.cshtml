@@ -4,9 +4,25 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<div class="container">
+    <div class="jumbotron details-jumbo">
+        <h1><span id="background-color">@Html.DisplayFor(model => model.Title)</span></h1>
+        <p>
+            <span id="background-color">@Html.DisplayNameFor(model => model.Score) : @Html.DisplayFor(model => model.Score)</span>
+        </p>
+    </div>
+</div>
 
-<div>
+<h1>Review</h1>
+
+<p>@Html.DisplayFor(model => model.Content)</p>
+
+<h1>@Html.DisplayNameFor(model => model.Score) : @Html.DisplayFor(model => model.Score)</h1>
+
+<p>@Html.DisplayNameFor(model => model.Author) : @Html.DisplayFor(model => model.Author)</p>
+
+<p>@Html.DisplayNameFor(model => model.PublishedDate) : @Html.DisplayFor(model => model.PublishedDate)</p>
+@*<div>
     <h4>Review</h4>
     <hr />
     <dl class="dl-horizontal">
@@ -59,7 +75,7 @@
         </dd>
 
     </dl>
-</div>
+</div>*@
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ReviewID }) |
     @Html.ActionLink("Back to List", "Index")

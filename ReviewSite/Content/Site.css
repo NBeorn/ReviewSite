@@ -22,3 +22,29 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/*Home*/
+.jumbotron {
+    background-image: url('17mul6jd3pfhdjpg.jpg');
+}
+
+.jumbo-text {
+    color: white;
+}
+
+.move-down {
+    padding-top: 60px;
+}
+
+.home-image {
+    width: 600px;
+    height: 300px;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: darkgrey;
+    color: black;
+}
+
+/*Reviews Index*/
